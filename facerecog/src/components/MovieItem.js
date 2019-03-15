@@ -43,15 +43,15 @@ class MovieItem extends Component {
     return (
         <div className="col-md-12">
             <div className="row mt-3">
-                <div className="col-md-3">
+                <div className="col-md-3 text-md-left text-center">
                     <img className="img-fluid" src={this.props.img} alt="" />
                 </div>
-                <div className="col-md-9">
+                <div className="col-md-9 text-md-left text-center">
                     <div>
                         <p><b>{this.props.title}</b></p>
                         <p>Release : {this.props.year}</p>
                         <p>Genre : {genreString}</p>
-                        <p>Kategori Umur : {umurFlag}</p>
+                        <p>Kategori : {umurFlag}</p>
                         <p>{this.props.deskripsi}</p>
                     </div>
                 </div>

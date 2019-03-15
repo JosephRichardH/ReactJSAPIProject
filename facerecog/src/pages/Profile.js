@@ -7,7 +7,21 @@ import {connect} from 'unistore/react';
 import {actions} from '../store';
 
 class Profile extends Component {
+    
+    
     render(){
+    
+//     const isLogin = this.props.isLogin;
+//         if(isLogin === false){
+//             return <Redirect to={{pathname : "/login"}} />
+//         }else{
+//             return (
+//                 <div>
+//                     <Navigation />
+//                     <ContainerProfile />
+//                 </div>
+//             );
+    
     <html>
     <head>
         <link href="assets/css/bootstrap.min.css" rel="stylesheet"/>
@@ -68,4 +82,4 @@ class Profile extends Component {
 </html>
 }
 }
-export default Profile;
+export default connect("isLogin",actions)(withRouter(Profile));
