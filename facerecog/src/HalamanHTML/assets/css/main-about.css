@@ -6,7 +6,9 @@ footer {
     margin-top: 246px;
 }
 
-
+.ratakanan{
+    float: right;
+}
 
 .titletable{
     margin-top: 31px;
@@ -15,14 +17,21 @@ footer {
     padding-right: 70px;
 }
 .banner{
+    padding: 50px 0;
     background-color: black;
+}
+.bannerhitam{
+    background-color: black;
+}
+.bannerputih{
+    color: white;
 }
 
 .profile{
     width: 174px;
     height: 174px;
     border-radius: 50%;
-    margin: 63px 530px 0 530px;
+    margin: auto;
 }
 
 table, th, td{
@@ -61,9 +70,7 @@ border-collapse: collapse;
     color: white;
     font-family: Muli, sans-serif;
     font-size: 45px;
-    margin-top: 13px;
-    margin-left: 475px;
-    
+    margin:auto;    
 }
 
 .location{
@@ -82,19 +89,25 @@ border-collapse: collapse;
     color: white;
     font-family: Muli, sans-serif;
     font-size: 20px;
-    margin-top: 13px;
-    margin-left: 525px; 
+    margin:auto;
+}
+
+.atasnyacv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .cv{
     width:192px;
     height:53px;
     background-color:#F47522;
-    margin-left:515px;
-    margin-bottom: 54px;
     border-radius: 10px;
     border-width: 0px;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 nav{
@@ -109,7 +122,7 @@ nav{
 .listnav{
     display: inline-block;
     padding: 10px 10px;
-    margin-right: 105px;
+    margin-right: 40px;
     margin-top: 16px;
     font-family: Muli, sans-serif;
     font-size: 14px;
@@ -140,19 +153,14 @@ nav{
     
 }
 
-.logo-foot{
-    margin-left: 106px;
-    margin-top: 44px;
-    width: 134px;
-    height: 67px;
-}
 
 .copyright{
     padding-top:50px;
+    padding-bottom:50px;
     font-family: Roboto, sans-serif;
-    font-size: 12px;
+    font-size: 20px;
     color : white;
-    margin-left: 106px;
+    margin: auto;
 }
 
 .marginfoot{
@@ -160,14 +168,10 @@ nav{
     margin-bottom: 63px;
 }
 
-.imgfoot{
-    width: 13px;
-    height: 13px;
-}
-
 .rowfoot{
     text-align: center;
     margin-top: 44px;
+    margin-bottom:44px;
 }
 
 #nav-color{
@@ -197,4 +201,8 @@ nav{
     text-align: center;
     margin-right : 20px;
     margin-left : 20px;
+}
+
+.jarakbutton{
+    margin-top:20px;
 }

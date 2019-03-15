@@ -7,48 +7,61 @@
     </head>
     <body>
         <header>
-            <nav>
-                <ul>
-                    <img class="logo-head" src="assets/logo/logo-alterra-academy@2x.png"/>
-                    <a href="home.html"><li class="listnav">Home</li></a>
-                    <a href="#"><li class="listnav">Hi, user, you've logged in as user@user.user</li></a>
-                </ul>
-            </nav>
+                        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                                <a class="navbar-brand" href="#">Navbar w/ text</a>
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                                  <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarText">
+                                  <ul class="navbar-nav mr-auto">
+                                    <li class="nav-item active listnav">
+                                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                                    </li>
+                                    <li class="nav-item listnav">
+                                      <a class="nav-link" href="#">Profile</a>
+                                    </li>
+                                    <li class="nav-item listnav">
+                                      <a class="nav-link" href="#">Sign In</a>
+                                    </li>
+                                    <li class="nav-item listnav">
+                                        <a class="nav-link" href="#">Sign Out</a>
+                                    </li>
+                                    </ul>
+                                  <span class="listnav navbar-text ratakanan">
+                                    Logged in as vraaja@vraaja.vraaja
+                                  </span>
+                                </div>
+                              </nav>
         </header>
         <div class="banner">
-            <img class="profile" src="assets/img/jokowi.jpeg">
-            <p class="nama">Uploaded Picture</p>  
-            <form >
-                    <label for="url" class="job">Url</label><br>
-                    <input type="name" name="gender" id="male" value="Fill your Url" class="job">
+            <div class="container">
+            <div class="row">
+                <img class="profile" src="assets/img/jokowi.jpeg">
+            </div>
+            <div class="row nama">
+                <p class="nama">Uploaded Picture</p>
+            </div >
+            <form class="row">
+                    <input type="name" name="gender" id="male" placeholder="Your profile picture url here :D" class="job">
             </form>
-            <button type="button" class="cv">Upload Profile</button>
+            <div class = "row atasnyacv">
+            <button class="cv row">Upload Profile</button>
+            </div>
+        </div>
         </div>
         <div class=" isidalam">
                 Your mood is: <br>
                 Happy <img>
         </div>
         <footer>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 marginfoot">
-                        <span class="copyright">©Copyright Doni, Dzinsyah, Joseph</span>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 rowfoot">
+                                <span class="copyright">&copy; Copyright Doni, Dzinsyah, Joseph</span>
+                        </div>
                     </div>
-                    <div class="col-md-6 rowfoot">
-                            <span id="follow">Follow Us On</span><br>
-                        <ul class="ulul">
-                            <li class="medsos">
-                                <img class="imgfoot" src="assets/ico/ico-facebook@2x.png"/><span class="medword">Facebook</span>
-                            </li>
-                            <li class="medsos">
-                                <img class="imgfoot" src="assets/ico/ico-twitter@2x.png"/><span class="medword">Twitter</span><br>
-                            </li>
-                            <li class="medsos">
-                                <img class="imgfoot" src="assets/ico/ico-instagram@2x.png"/><span class="medword">Instagram</span>
-                            </li>
-                        </ul>
                     </div>
-                </div>
-            </footer>
+                </footer>
+    
         </body>    
 </html>
