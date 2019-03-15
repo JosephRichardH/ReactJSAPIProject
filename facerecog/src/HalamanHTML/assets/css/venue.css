@@ -1,0 +1,47 @@
+.blue{
+    color: aqua;
+}
+
+.margin{
+
+    margin: 50px;
+}
+
+.img1{
+    max-width: 400px;
+    max-height: 200px;
+}
+.borderproduct {
+
+    border-radius: 5%;
+    box-shadow: 1px 8px 10px 5px RGBA(0, 0, 0, .16);
+    padding-top: 20px;
+    background-color:#d4d4d6;
+}
+
+.boardimage{
+    background-image: url(../images/img/wood.jpg);
+}
+
+.textcenter {
+    text-align: center;
+}
+
+.h400w350{
+    height: 250px;
+    width: 300px;
+}
+
+.marginAuto{
+    margin: auto;
+}
+
+.htable{
+    height: 35px;
+}
+.margin13{
+    margin: 10px;
+}
+.red{
+    color: red;
+}
