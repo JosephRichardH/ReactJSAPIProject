@@ -1,0 +1,13 @@
+.p-link a{
+    position: relative;
+    top: 25px;
+    font-size: 120%;
+    margin-top: 30px;
+    padding: 10px 30px;
+    color: white;
+    background-color: blue;
+}
+
+.p-link img{
+    height: 370px;
+}

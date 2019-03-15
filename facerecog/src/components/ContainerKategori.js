@@ -6,7 +6,7 @@ class Navigation extends Component {
   
   render() {
       let baseUrlImg = "http://image.tmdb.org/t/p/w300";
-    let tmpMovies = this.props.listMovies.map(item => {
+        let tmpMovies = this.props.listMovies.map(item => {
         return <MovieItem adult={item.adult} genre={item.genre_ids} img={baseUrlImg + item.poster_path} title={item.title} year={item.release_date} deskripsi={item.overview} />
     });
     if(tmpMovies.length > 0){
